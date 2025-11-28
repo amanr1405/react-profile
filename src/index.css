@@ -492,19 +492,35 @@ button{
     padding-right: 20px;
   }
 
+
   .info_container{
-    flex-direction: column;
     gap: 10px;
   }
 
+  .info2 .elements img, .info .elements img{
+    width: 20px;
+    height: 20px;
+    top: 20px;
+    left: 20px;
+  } 
+
+  .info .elements h2, .info2 .elements h2{
+    top: 20px;
+    left: 20px;
+    font-size: 1.3rem;
+  }
   .heroic h1{
-    font-size: 4rem;
-    line-height: 4rem;
-    width: 100%;
+    font-size: 3rem;
+    line-height: 3rem;
+    width: 100%
   }
 
   .heroic p{
     width: 100%;
+  }
+  
+  .progress h1 {
+      font-size: 2rem;
   }
 
   .progress p{
@@ -529,9 +545,6 @@ button{
 
   .project_container{
     gap: 20px;
-  }
-  .progress h1{
-    font-size: 3rem;
   }
 
   .view_element .view_photo img{
