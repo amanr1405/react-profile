@@ -360,6 +360,7 @@ nav{
 
 .tool_element{
   margin-top: 20px;
+  margin-left: 20px;
   width: 80%;
   display: flex;
   gap: 20px;
