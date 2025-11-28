@@ -80,17 +80,17 @@ function Body() {
 
                     <div className="tools">
                         <Tools />
-                        <div className="tool_element">
+                        <div className="tool_elements">
                             <div className="tool1"><Tool_element image={vercel} title={"Vercel"} des={"Deployment"}/></div>
                             <div className="tool2"><Tool_element image={wordpress} title={"WordPress"} des={"Website Builder"}/></div>
                         </div>
 
-                        <div className="tool_element">
+                        <div className="tool_elements">
                             <div className="tool1"><Tool_element image={figma} title={"Figma"} des={"Design Tool"}/></div>
                             <div className="tool2"><Tool_element image={frame} title={"React"} des={"Framework"}/></div>
                         </div>
 
-                        <div className="tool_element">
+                        <div className="tool_elements">
                             <div className="tool1"><Tool_element image={arduino} title={"Arduino"} des={"Robotics"}/></div>
                             <div className="tool2"><Tool_element image={openai} title={"OpenAI"} des={"AI Assistant"}/></div>
                         </div>
