@@ -14,7 +14,7 @@ function Card(){
 
             <div className="card_content">
                 <img src={exp} alt="Avatar" />
-                <h2>Aman Raj</h2>
+                <h2>Developer</h2>
             </div>
 
             <div className="card_content2">
