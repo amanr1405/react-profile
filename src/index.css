@@ -512,7 +512,10 @@ button{
   .heroic h1{
     font-size: 3rem;
     line-height: 3rem;
-    width: 100%
+  }
+
+  .tool_element2 h1{
+    font-size: 1.2rem;
   }
 
   .heroic p{
@@ -525,6 +528,7 @@ button{
 
   .progress p{
     width: 100%;
+    font-size: 0.8rem;
   } 
 
   .exp_content{
