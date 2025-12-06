@@ -10,12 +10,6 @@ A simple and elegant profile app built with React. This project provides a moder
 - Easy customization for different users
 - Built with React and styled-components (or your choice of CSS frameworks)
 
-## Demo
-
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/your-demo-image.png" alt="React Profile Demo" width="400" />
-</p>
-
 ## Getting Started
 
 To start using this profile app, follow these steps:
