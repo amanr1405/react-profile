@@ -10,6 +10,8 @@ import View_projects from './view_projects.jsx';
 import cal from '../images/links/cal.png';
 import report from '../images/links/report.png';
 import nandi from '../images/links/nandi.png';
+import Rare from '../images/links/Rare.png';
+
 import Exp from './exp.jsx';
 import Exp_content from "./exp_content.jsx";
 import Tools from "./tools.jsx";
@@ -28,13 +30,10 @@ import ContactForm from "./contactform.jsx";
 
 
 
-
-
-
 function Body() {
     return (
         <>
-            <div className="content">
+            <div className="content" id="home">
                 <div className="l_content"><Card /></div>
                 <div className="r_content">
                     <Heroic />
@@ -50,17 +49,28 @@ function Body() {
                         <Info2 />
                     </div>
  
-                    <div className="recent_projects"><Project /></div>
+                    <div className="recent_projects" id="projects"><Project /></div>
+
+                    <View_projects 
+                        cal={Rare}
+                        title={"RareBlocks - Blogging Platform"}
+                        des={"Fetches the data from using APIs and shows the stories, along with having 404 page handling feature."}
+                        btn={"https://rare-blocks-blog.vercel.app/"}
+                    />
+
+
                     <View_projects 
                         cal={cal}
                         title={"Calculator App"}
                         des={"A sleek and user-friendly calculator application designed to help users efficiently manage their calculations."}
+                        btn={"https://calculator-gamma-kohl.vercel.app/"}
                     />
 
                     <View_projects 
                         cal={report}
                         title={"Weather App"}
                         des={"A weather forecasting application that provides accurate and up-to-date weather information for users worldwide."}
+                        btn={"https://weather-app-psi-ten-11.vercel.app/"}
                     />
 
                     <View_projects 
@@ -69,7 +79,8 @@ function Body() {
                         des={"An autonomous robot developed using ESP and sensors for Robo Soccer."}
                     />
 
-                    <div className="exp">
+
+                    <div className="exp" id="experience">
                         <Exp />
                         <Exp_content title={"WiitzEnd"} description={"Led the design team in creating user-centric mobile and web applications, improving the user experience and increasing user engagement"} due={"2023 - Present"} />
 
@@ -78,7 +89,7 @@ function Body() {
                         <Exp_content title={"Real Skill"} description={"Volunteered in handling registration, technical support, and logistics. Contributed to the successful execution of the event."}  due={"2024"} />
                     </div>
 
-                    <div className="tools">
+                    <div className="tools" id="tools">
                         <Tools />
                         <div className="tool_elements">
                             <div className="tool1"><Tool_element image={vercel} title={"Vercel"} des={"Deployment"}/></div>
@@ -99,7 +110,7 @@ function Body() {
 
 
 
-                    <div className="contact_section"><Contact /><ContactForm/></div>
+                    <div className="contact_section" id="contact"><Contact /><ContactForm/></div>
                     
                 </div>
             </div>
