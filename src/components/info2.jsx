@@ -10,9 +10,9 @@ function Info(){
                 <img src={img1} alt="Layers"/>
                 <h2>ARDUINO, FIGMA, WORDPRESS, REACTJS</h2>
 
-                <div className="btn2">
+                {/* <div className="btn2">
                     <img src={btn} alt="button"/>
-                </div>
+                </div> */}
 
             </div>
         </div>
