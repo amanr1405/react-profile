@@ -57,7 +57,7 @@ nav{
 
 .navbar a:hover img,
 .navbar a:active img {
-  filter: invert(13%) sepia(98%) saturate(1457%) hue-rotate(5deg) brightness(102%) contrast(106%);
+   filter:invert(15%) sepia(98%) saturate(1457%) hue-rotate(5deg) brightness(200%) contrast(106%);
 }
 
 .content{
