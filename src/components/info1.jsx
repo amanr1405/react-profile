@@ -11,9 +11,9 @@ function Info(){
                 <img src={img1} alt="Layers"/>
                 <h2>UI/UX DESIGNING, FULLSTACK, ROBOTICS</h2>
 
-                <div className="btn1">
+                {/* <div className="btn1">
                     <img src={btn} alt="button"/>
-                </div>
+                </div> */}
                 
             </div>
         </div>
