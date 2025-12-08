@@ -580,9 +580,6 @@ a{
     flex-direction: column;
   }
 
-  .view_element .view_des{
-    flex-direction: row;
-  }
   .exp_content_left p{
     width: auto;
   }
