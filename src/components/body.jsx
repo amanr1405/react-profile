@@ -11,6 +11,8 @@ import cal from '../images/links/cal.png';
 import report from '../images/links/report.png';
 import nandi from '../images/links/nandi.png';
 import Rare from '../images/links/Rare.png';
+import focusnote from '../images/links/focusnote.png'
+
 
 import Exp from './exp.jsx';
 import Exp_content from "./exp_content.jsx";
@@ -51,6 +53,16 @@ function Body() {
  
                     <div className="recent_projects" id="projects"><Project /></div>
 
+
+                    <View_projects 
+                        cal={focusnote}
+                        title={"FocusNote"}
+                        des={"A productivity-focused to-do app that features a Supabase-powered backend for secure data storage and real-time"}
+                        btn={"https://focus-note.vercel.app/"}
+
+                    />
+
+
                     <View_projects 
                         cal={Rare}
                         title={"RareBlocks - Blogging Platform"}
@@ -61,7 +73,7 @@ function Body() {
 
                     <View_projects 
                         cal={cal}
-                        title={"Calculator App"}
+                        title={"QuickCalc Calculator"}
                         des={"A sleek and user-friendly calculator application designed to help users efficiently manage their calculations."}
                         btn={"https://calculator-gamma-kohl.vercel.app/"}
                     />
