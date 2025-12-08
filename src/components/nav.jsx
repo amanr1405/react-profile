@@ -22,7 +22,7 @@ function Nav() {
                     <li><a onClick={() => scrollToSection('projects')}><img src={project} alt="project" /></a></li>
                     <li><a onClick={() => scrollToSection('experience')}><img src={exp} alt="Experience" /></a></li>
                     <li><a onClick={() => scrollToSection('tools')}><img src={tool} alt="tools" /></a></li>
-                    <li><a onClick={() => scrollToSection('contact')}><img src={like} alt="contact" /></a></li>
+                    <li><a href="/Aman_Resume.pdf" download="Aman_Resume.pdf"><img src={like} alt="contact" /></a></li>
 
                 </ul>
             </div>
