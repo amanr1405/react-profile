@@ -1,5 +1,5 @@
 import home from '../images/home.svg';
-import like from '../images/heart.svg';
+import like from '../images/download.svg';
 import tool from '../images/magic-wand.svg';
 import project from '../images/folder.svg';
 import exp from '../images/briefcase.svg';
