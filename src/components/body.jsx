@@ -12,6 +12,8 @@ import report from '../images/links/report.png';
 import nandi from '../images/links/nandi.png';
 import Rare from '../images/links/Rare.png';
 import focusnote from '../images/links/focusnote.png'
+import focusnote from '../images/links/parth.png'
+
 
 
 import Exp from './exp.jsx';
@@ -53,6 +55,13 @@ function Body() {
  
                     <div className="recent_projects" id="projects"><Project /></div>
 
+                     <View_projects 
+                        cal={parth}
+                        title={"Parth"}
+                        des={"An AI-powered ecosystem that connects your PC, Mobile, and a Smart Pet Bot into one intelligent companion."}
+                        btn={"https://parth-ashy.vercel.app/"}
+
+                    />
 
                     <View_projects 
                         cal={focusnote}
