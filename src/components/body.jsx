@@ -12,7 +12,7 @@ import report from '../images/links/report.png';
 import nandi from '../images/links/nandi.png';
 import Rare from '../images/links/Rare.png';
 import focusnote from '../images/links/focusnote.png'
-import focusnote from '../images/links/parth.png'
+import parth from '../images/links/parth.png'
 
 
 
