@@ -8,7 +8,7 @@ import '../index.css';
 
 
 function Card(){
-    const roles = ["FullStack Dev", "UI/UX Designer", "App Developer"];
+    const roles = ["FullStack Dev", "UI/UX Designer", "App Developer", "Freelancer"];
     const [displayText, setDisplayText] = useState("");
     const [roleIndex, setRoleIndex] = useState(0);
     const [charIndex, setCharIndex] = useState(0);
